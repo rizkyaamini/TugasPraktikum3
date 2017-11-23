@@ -1,0 +1,76 @@
+body{
+    margin: 0
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+header{
+    background-color: #ff007f;
+    color: #000000
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-top: 10px;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+nav{
+    margin:0px;
+    padding: 0px;
+    background-color: #5d5d5d;
+    display: -webkit-box;
+}
+
+nav ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+    background-color: #ffC0CB
+}
+
+article{
+    padding: 10px;
+}
+
+footer{
+    margin: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #5d5d5d;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*css untuk halaman registrasi*/
+label{
+    display: block;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+input, textarea, select, button{
+    display: block;
+}
+
+button{
+    margin-top : 10px;
+    border: 1 solid #bf00ff
+    padding:7px;
+}
